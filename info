@@ -1,0 +1,23 @@
+docker compose build
+
+docker compose up -d
+
+docker compose ps
+
+docker ps
+
+docker compose exec app php artisan --version
+
+docker compose exec app php -v
+docker compose exec app composer --version
+docker compose exec app php artisan migrate
+
+///
+Check Permission IF have  Problem Like This 
+tempnam(): file created in the system's temporary directory
+
+For phpMyAdmin Page
+http://127.0.0.1:8081/ 
+
+For Website Page 
+http://127.0.0.1:8080/

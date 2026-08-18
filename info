@@ -2,9 +2,14 @@ docker compose build
 
 docker compose up -d
 
+// Run Load balance
+docker compose up -d --scale app=3
+
 docker compose ps
 
 docker ps
+
+docker compose down
 
 docker compose exec app php artisan --version
 
